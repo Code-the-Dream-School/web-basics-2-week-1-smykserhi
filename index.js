@@ -103,7 +103,7 @@ console.log(myFunction());
  *
  * Steps:
  * 1. Create a function called `myArrowFunction` using the arrow syntax
- * 2. Add a return statement in your function which returns a random string
+ * 2. Add a return statement in your function whichn returns a random strig
  * 3. Use `console.log` to print out the output of `myArrowFunction()`
  *
  * Example Output: "I called an arrow function!"
