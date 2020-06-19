@@ -49,7 +49,7 @@ If the output says `command not found`, then [download node.js](https://nodejs.o
 
 Finally, open the project directory in your code editor and continue to the next section.
 
-### Task List:
+### Task List: 
 
 For this assignment, all changes will be made within the `index.js` file.
 
