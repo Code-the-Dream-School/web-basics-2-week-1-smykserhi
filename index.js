@@ -7,7 +7,7 @@
  * Example Output: "hello world"
  */
 
-console.log('hello world')
+console.log('hello world');
 
 /* Challenge #1
  * Create a variable and print the value
@@ -18,8 +18,12 @@ console.log('hello world')
  *
  * Example Output: n/a
  */
-
 // TODO: ADD CODE HERE
+
+//Solution for challenge #1
+const chall_1_step_1 = 25;
+console.log(chall_1_step_1);
+
 
 /* Challenge #2
  * Create variables for your first and last name then print your full name
@@ -33,7 +37,9 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
-
+const firstName = "Serhii";
+const lastName = "Smyk";
+console.log(`Hello me first name ${firstName} and my last name ${lastName}`);
 /* Challenge #3
  * Calculate the total price rounded to two decimals
  *
@@ -47,6 +53,10 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
+const price = 12.551;
+const quantity = 9;
+const total = (price * quantity).toFixed(2);
+console.log(`Your total price is $${total}`);
 
 /* Challenge #4
  * Declare a variable and conditionally assign it a value
@@ -63,7 +73,14 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
-
+const weather = "Rainy";
+let message;
+if (weather === "Sunny"){
+    message = "Yay! It's sunny outside";
+}else {
+   message = "Aww! It's not sunny outside";
+}
+console.log(message);
 /* Challenge #5
  * Create a function that returns any string
  *
@@ -76,7 +93,11 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
-
+function myFunction (){
+    
+    return "myFunction return a string";
+}
+console.log(myFunction());
 /* Challenge #6
  * Rewrite the function in Challenge #5 as an arrow function
  *
@@ -89,7 +110,8 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
-
+const myArrowFunction = () => "I called my arrow function!";
+console.log(myArrowFunction());
 /* Challenge #7
  * Create a function that accepts a string argument and returns it in all uppercase
  *
@@ -103,7 +125,10 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
-
+function stringToUpper(str){
+    return str.toUpperCase();
+}
+console.log(stringToUpper("string to uppercase"));
 /* Challenge #8
  * Create a function that accepts a number argument and returns double its value
  *
@@ -120,3 +145,10 @@ console.log('hello world')
  */
 
 // TODO: ADD CODE HERE
+function multiplyByTwo(number){
+    return number*2;
+}
+const num1 = multiplyByTwo(1);
+const num2 = multiplyByTwo(5);
+const num3 = multiplyByTwo(10);
+console.log(`${num1}, ${num2}, ${num3}` );
