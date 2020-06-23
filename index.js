@@ -21,8 +21,8 @@ console.log('hello world');
 // TODO: ADD CODE HERE
 
 //Solution for challenge #1
-const chall_1_step_1 = 25;
-console.log(chall_1_step_1);
+const chall1Step1 = 25;
+console.log(chall1Step1);
 
 
 /* Challenge #2
@@ -151,4 +151,4 @@ function multiplyByTwo(number){
 const num1 = multiplyByTwo(1);
 const num2 = multiplyByTwo(5);
 const num3 = multiplyByTwo(10);
-console.log(`${num1}, ${num2}, ${num3}` );
+console.log(num1, num2, num3 );
